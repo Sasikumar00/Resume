@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 30px;
+    height: 1100px;
+}
+.container{
+    /* border: 2px solid red; */
+    height: 100%;
+}
+.container .Emp-Intro{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.container .Emp-Intro h3{
+    font-family: 'Catamaran', sans-serif;
+    margin: 10px 0;
+}
+.container .Emp-Intro p{
+    font-family: 'Catamaran', sans-serif;
+    line-height: 22px;
+}
+.container .Emp-Intro span{
+    font-weight: bold;
+}
+.resume-details{
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Catamaran', sans-serif;
+}
+.resume-details .box-left{
+    width: 40%;
+    font-family: 'Catamaran', sans-serif;
+}
+.resume-details .box-left p,h4{
+    margin: 8px -30px;
+}
+.resume-details .box-right{
+    width: 60%;
+    margin-top: 2px;
+}
+.box-prop{
+    margin: 5px;
+    display: flex;
+}
+.resume-details img{
+    width: 25px;
+    margin: 7px;
+}
+hr{
+    position: relative;
+    left: -30px;
+    width: 300px;
+}
+.box-right .heading{
+    display: flex;
+}
+.box-right .exp{
+    display: flex;
+}
+.box-right .per-details{
+    display: flex;
+    flex-direction: column;
+}
+.box-right .per-details .exp-details{
+    margin: 5px 20px;
+}
+.box-right .per-details .exp-date{
+    margin: 8px 0;
+}
+.box-right .per-details .exp-details ul{
+    margin-left: 15px;
+}
+.box4 .exp-details{
+    margin-left: 75px;
+}
+.box-right hr{
+    width: 700px;
+}
